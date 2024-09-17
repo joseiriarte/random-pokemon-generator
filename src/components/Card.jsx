@@ -28,7 +28,7 @@ export const Card = ({ name, id, img, height, weight, types, getPokemon }) => {
             </ul>
           </div>
 
-          <div className=''>
+          <div>
             <p className='mb-1 opacity-70'>Height:</p>
             <p className='mb-4 font-medium opacity-80'>{height * 10} cm</p>
             <p className='mb-1 opacity-70'>Weight:</p>
